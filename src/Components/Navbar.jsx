@@ -50,13 +50,13 @@ function Navbar() {
                     </li>
                     
                     <li className='nav-item'>
-                        <a href='/devportfolio_test/Markel_Bradford_Developer_Resume.pdf' className='nav-links-mobile' onClick={closeMobileMenu} target="_blank" rel='noreferrer'> 
+                        <a href='/devportfolio/Markel_Bradford_Developer_Resume.pdf' className='nav-links-mobile' onClick={closeMobileMenu} target="_blank" rel='noreferrer'> 
                         Resume
                         </a>
                     </li>
 
                     <li>
-                        <a href='/devportfolio_test/Markel_Bradford_Developer_Resume.pdf' className='resume-button' target='_blank'>Resume</a>
+                        <a href='/devportfolio/Markel_Bradford_Developer_Resume.pdf' className='resume-button' target='_blank'>Resume</a>
                     </li>
                     <li className='nav-item'>
                         <Toggle />
