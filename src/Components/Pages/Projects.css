@@ -49,10 +49,6 @@
    display: none;
 }
 
-#portfolio-thumbnail {
-    border: solid 2px midnightblue;
-}
-
 .thumbnail:hover {
     box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5);
 }
@@ -66,7 +62,6 @@
 }
 
 .project-name {
-
     text-align: left;
     margin-top: 80px;
     font-size: 30px;
@@ -80,13 +75,13 @@
     font-size: 30px;
 }
 
-.github {
+.github, .github2 {
     display: flex;
     width: 80px;
     margin: 70px 0 0 20px;
 }
 
-.github:hover {
+.github:hover, .github2:hover {
     transform: scale(1.2);
 }
 
@@ -99,10 +94,8 @@
 
 @media screen and (min-width:300px) and (max-width:600px) {
     .project-view {
-        text-align: left;
-        margin-left: 20px;
-        margin-right: 20px;
-        font-size: 28px;
+        text-align: center;
+        font-size: 26px;
         padding: 20px;
     }
     
@@ -113,11 +106,7 @@
         border: none;
         border-radius: 12px;
         width: 60%;
-        margin: 40px auto 0 auto;
-    }
-
-    #mobile-portfolio {
-        border: 2px solid midnightblue;
+        margin: 40px auto 25px auto;
     }
     
 
@@ -131,12 +120,15 @@
         padding: 10px 20px;
         margin: 0;
     }
+
+    .github, .github2 {
+        margin-top: 35px;
+    }
 }
 
 @media screen and (max-width: 960px) {
     .project-container {
         justify-content: center;
-        margin-bottom: 100px;
     }
     
     .project-name {

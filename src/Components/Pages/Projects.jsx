@@ -1,7 +1,6 @@
 import React from "react";
 import "../../App.css";
 import "./Projects.css";
-import { motion } from "framer-motion";
 import styles from "../../styles/Global.module.scss";
 import { useInView } from "react-intersection-observer";
 
@@ -74,12 +73,9 @@ function Projects() {
   });
 
   return (
-    <motion.div
+    <div
     id="projects"
-    className="projectsBg"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 0.1 } }}
-      exit={{ opacity: 0, transition: { duration: 0.1 } }}>
+    className="projectsBg">
         <div className="filler2"></div>
       <h1 ref={title} className="projects">
         {" "}
@@ -126,6 +122,11 @@ function Projects() {
                   src="/devportfolio/images/github.png"
                   alt="link to Github repository"
                 />
+                <img
+                    className="github2"
+                    src="/devportfolio/images/whitegithub.png"
+                    alt="link to Github repository"
+                  />
               </a>
             </div>
           </div>
@@ -241,6 +242,11 @@ function Projects() {
                   src="/devportfolio/images/github.png"
                   alt="link to Github repository"
                 />
+                <img
+                    className="github2"
+                    src="/devportfolio/images/whitegithub.png"
+                    alt="link to Github repository"
+                  />
               </a>
             </div>
           </div>
@@ -331,6 +337,11 @@ function Projects() {
                   <img
                     className="github"
                     src="/devportfolio/images/github.png"
+                    alt="link to Github repository"
+                  />
+                  <img
+                    className="github2"
+                    src="/devportfolio/images/whitegithub.png"
                     alt="link to Github repository"
                   />
                 </a>
@@ -428,6 +439,11 @@ function Projects() {
                   <img
                     className="github"
                     src="/devportfolio/images/github.png"
+                    alt="link to Github repository"
+                  />
+                  <img
+                    className="github2"
+                    src="/devportfolio/images/whitegithub.png"
                     alt="link to Github repository"
                   />
                 </a>
@@ -546,6 +562,11 @@ function Projects() {
                     src="/devportfolio/images/github.png"
                     alt="link to Github repository"
                   />
+                  <img
+                    className="github2"
+                    src="/devportfolio/images/whitegithub.png"
+                    alt="link to Github repository"
+                  />
                 </a>
               </div>
             </div>
@@ -635,6 +656,11 @@ function Projects() {
                     src="/devportfolio/images/github.png"
                     alt="link to Github repository"
                   />
+                  <img
+                    className="github2"
+                    src="/devportfolio/images/whitegithub.png"
+                    alt="link to Github repository"
+                  />
                 </a>
               </div>
             </div>
@@ -694,7 +720,7 @@ function Projects() {
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }
 

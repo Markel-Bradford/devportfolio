@@ -21,6 +21,7 @@ background: linear-gradient(90deg, rgb(28, 27, 27) 0%, midnightblue 100%);
 }
 
 .footer-name {
+    color: #fff;
     font-family: "Audiowide", sans-serif;
 }
 

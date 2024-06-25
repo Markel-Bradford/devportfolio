@@ -1,3 +1,25 @@
+.theme-dark {
+  --light-text: #ffffff;
+  --header-text: #ffd700;
+  --name-text: #ffd700;
+  --dark-background: #111;
+  --section-title-text: #fff;
+  --card-text: #fff;
+  --accent: #ffd700;
+}
+
+.theme-light {
+  --light-text: #000;
+  --header-text: #fff;
+  --name-text: midnightblue;
+  --dark-background: #fff;
+  --section-title-text: midnightblue;
+  --card-text: midnightblue;
+  --accent: midnightblue;
+}
+
+
+
 /*Hero Section inView styles*/
 
 .welcome {
@@ -96,7 +118,7 @@
 
 /*About Page animation styles*/
 .aboutMeContainer {
-  background-color: #fff;
+  background-color: var(--dark-background);
   display: flex;
   position: relative;
   flex-flow: column;
@@ -116,7 +138,7 @@
 
 .skillContainer {
   display: flex;
-  background-color: #fff;
+  gap: 30px;
   position: relative;
   flex-flow: row;
   align-items: center;
@@ -125,6 +147,14 @@
   padding-top: 100px;
   padding-bottom: 150px;
   margin: 0 auto;
+}
+
+.contactMethods {
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: var(--section-title-text);
+  padding: 0 20px;
 }
 
 @media screen and (min-width: 360px) and (max-width: 960px) {
@@ -137,11 +167,27 @@
     line-height: 2rem;
     padding: 10px 20px;
   }
+
+  .contactMethods {
+    font-size: 26px;
+    margin-bottom: 0;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 961px) and (max-width: 1100px) {
 
   .skill-1 {
     padding: 35px;
+  }
+}
+
+@media (prefers-color-scheme: dark) { 
+  .aboutMeContainer, .contactContainer {
+    background: var(--dark-background);
+  }
+
+  .contactMethods {
+    color: var(--section-title-text);
   }
 }

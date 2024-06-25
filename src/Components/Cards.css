@@ -19,6 +19,7 @@ h1 {
     padding-top: 50px;
     display: flex;
     width: calc(33.333% - 2rem); /* Adjust based on the number of cards per row */
+    text-decoration: none;
 }
 
 .cardsItems {
@@ -100,6 +101,10 @@ h1 {
     font-size: 20px;
     line-height: 24px;
     overflow: hidden;
+}
+
+.cardsItemText:hover {
+    color: #ffd700;
 }
 
 @media screen and (min-width: 1024px) {

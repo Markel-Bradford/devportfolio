@@ -1,0 +1,262 @@
+.theme-dark {
+  --light-text: #ffffff;
+  --header-text: #ffd700;
+  --name-text: #ffd700;
+  --dark-background: #111;
+  --section-title-text: #ffd700;
+  --description-text: #fff;
+  --card-text: #fff;
+  --accent: #ffd700;
+  --toggle: #fff;
+  --display-gh: none;
+  --display-gh2: display;
+}
+
+.theme-light {
+  --light-text: #000;
+  --header-text: #fff;
+  --name-text: black;
+  --dark-background: #fff;
+  --section-title-text: midnightblue;
+  --description-text: midnightblue;
+  --card-text: midnightblue;
+  --accent: midnightblue;
+  --toggle: green;
+  --display-gh: display;
+  --display-gh2: none;
+}
+
+html,
+#root {
+  color: var(--light-text);
+  background-color: var(--dark-background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: "Audiowide", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--description-text);
+}
+
+
+.project-view,
+.contactMethods,
+
+p,
+.cardsItemText {
+  color: var(--light-text);
+}
+
+.title-certs,
+.title-skills,
+.project-view,
+.contactMethods {
+    color: var(--section-title-text);
+}
+
+.about-me,
+.projects,
+.contact {
+  color: var(--header-text);
+}
+
+.name {
+  color: var(--name-text);
+}
+
+.filler,
+.filler2,
+.cards,
+.about-me-container,
+.skills-container,
+.contactContainer,
+.skillContainer,
+.project-container,
+.contact-img {
+  background-color: var(--dark-background);
+}
+
+.text-links:hover {
+  color: var(--accent);
+}
+
+.verify {
+    color: var(--accent);
+}
+
+.verify-link:hover {
+  color: var(--accent);
+}
+
+.toggle {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+}
+
+.tog-container {
+    color: var(--toggle);
+    margin-top: 25px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-label {
+    font-size: 24px;
+}
+
+.fa-sun {
+    color: #ffd700;
+}
+
+.fa-moon {
+    color: #777;
+}
+
+.github {
+    display: var(--display-gh);
+}
+
+.github2 {
+    display: var(--display-gh2);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: var(--light-text);
+    background-color: var(--dark-background);
+  }
+
+  h1,
+h2,
+h3,
+h4, .certification
+{
+    color: var(--description-text);
+}
+  p
+  {
+    color: var(--light-text);
+  }
+
+#learn,
+  .project-view,
+  .contactMethods {
+    color: var(--section-title-text);
+  }
+
+  .cardsItemText {
+    color: var(--card-text);
+  }
+
+  .about-me,
+  .projects,
+  .contact {
+    color: var(--header-text);
+  }
+
+  .name {
+    color: var(--name-text);
+  }
+
+  .filler2,
+  .cards,
+  .about-me-container,
+  .skills-container,
+  .contactContainer,
+  .skillContainer,
+  .project-container,
+  .contact-img {
+    background-color: var(--dark-background);
+  }
+
+  .text-links:hover {
+    color: var(--accent);
+  }
+
+  .verify {
+    color: var(--accent);
+}
+
+  .verify-link:hover {
+    color: var(--accent);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: var(--light-text);
+        background-color: var(--dark-background);
+      }
+    
+      h1,
+    h2,
+    h3,
+    h4, .certification
+    {
+        color: var(--description-text);
+    }
+      p
+      {
+        color: var(--light-text);
+      }
+    
+    #learn,
+      .project-view,
+      .contactMethods {
+        color: var(--section-title-text);
+      }
+    
+      .cardsItemText {
+        color: var(--card-text);
+      }
+    
+      .about-me,
+      .projects,
+      .contact {
+        color: var(--header-text);
+      }
+    
+      .name {
+        color: var(--name-text);
+      }
+    
+      .filler2,
+      .cards,
+      .about-me-container,
+      .skills-container,
+      .contactContainer,
+      .skillContainer,
+      .project-container,
+      .contact-img {
+        background-color: var(--dark-background);
+      }
+    
+      .text-links:hover {
+        color: var(--accent);
+      }
+    
+      .github2 {
+        display: none;
+      }
+    
+      .verify {
+        color: var(--accent);
+    }
+    
+      .verify-link:hover {
+        color: var(--accent);
+      }
+    }

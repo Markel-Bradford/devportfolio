@@ -19,7 +19,7 @@ function Cards() {
   return (
     <div className='cards'>
       <div ref={ref}>
-        <h1  className={`${inView ? styles.animationFade : styles.hidden}`}>Learn more about me and my projects!</h1>
+        <h1 id='learn' className={`${inView ? styles.animationFade : styles.hidden}`}>Learn more about me and my projects!</h1>
         </div>
           <div ref={cards} className={`${styles.cardsContainer}`}>
             <div className={`${styles.cardsWrapper} ${ cardsInView ? styles.animationFade : styles.hidden}`}>

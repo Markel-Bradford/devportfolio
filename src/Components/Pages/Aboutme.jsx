@@ -94,28 +94,39 @@ function AboutMe() {
           </div>
         </div>
         <div className="filler"></div>
-        <div className="skills-container">
-        <div ref={section4} className={`${styles.aboutMeContainer} ${section4InView ? styles.animationFade : styles.hidden}`}>
+        <div className="about-me-container">
+          <div ref={section4} className={`${section4InView ? styles.animationFade : styles.hidden}`}>
           <h3 className="title-skills">Skills</h3>
-        </div>
         <div ref={skills} className={`${styles.skillContainer} ${skillsInView ? styles.animationFade : styles.hidden}`}>
           <img
             className="skill"
-            src="/devportfolio/images/HTMLCSSJS.png"
+            src="/devportfolio/images/trifecta.png"
             alt="HTML CSS and JS Logo"
+          />
+          
+          <img
+            className="skill-2"
+            src="/devportfolio/logo512.png"
+            alt="react logo"
+          />
+          <img
+            className="py-skill"
+            src="/devportfolio/images/python.png"
+            alt="python logo"
+          />
+          <img
+            className="py-skill"
+            src="/devportfolio/images/firebase.png"
+            alt="firebase logo"
           />
           <img
             className="skill-1"
             src="/devportfolio/images/VScode.png"
             alt="VSCode logo"
           />
-          <img
-            className="skill-2"
-            src="/devportfolio/logo512.png"
-            alt="react logo"
-          />
         </div>
-        <div ref={certs} className={`${styles.aboutMeContainer} ${certsInView ? styles.animationFade : styles.hidden}`}>
+        </div>
+        <div ref={certs} className={`${certsInView ? styles.animationFade : styles.hidden}`}>
           
           <h3 className="title-certs">Certifications</h3>
           <div ref={cert1} className={`${cert1InView ? styles.animationFade : styles.hidden}`}>

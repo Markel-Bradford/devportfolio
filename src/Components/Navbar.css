@@ -38,8 +38,8 @@
   
   .nav-menu {
     display: grid;
-    grid-template-columns: repeat(6, auto);
-    grid-gap: 10px;
+    grid-template-columns: repeat(7, auto);
+    grid-gap: 5px;
     list-style: none;
     text-align: center;
     width: 60vw;
@@ -97,8 +97,8 @@
   .menu-icon {
     display: none;
   }
-  
-  @media screen and (max-width: 1024px) {
+
+  @media screen and (max-width: 1120px) {
     .NavbarItems {
       position: relative;
     }
@@ -163,6 +163,10 @@
       color: #fff;
       font-size: 2rem;
     }
+    
+    .nav-links-mobile.checkbox {
+      display: none;
+    }
   
     .nav-links-mobile {
       display: block;
@@ -178,6 +182,8 @@
       border: 1px solid #fff;
       transition: all 0.3s ease-out;
     }
+
+    
   
     .nav-links-mobile:hover {
       background: #FFD700;
