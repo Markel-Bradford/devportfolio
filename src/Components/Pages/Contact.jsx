@@ -43,7 +43,7 @@ function Contact() {
               href="mailto:markel.bradford94@gmail.com">
               <img
                 className="icon"
-                src="/devportfolio_test/images/contact2.png"
+                src="/devportfolio/images/contact2.png"
                 alt="Email me"
               />
             </a>
@@ -52,7 +52,7 @@ function Contact() {
               href="https://www.linkedin.com/in/markel-bradford-1773a9236">
               <img
                 className="icon"
-                src="/devportfolio_test/images/contact1.png"
+                src="/devportfolio/images/contact1.png"
                 alt="My LinkedIn Profile"
               />
             </a>

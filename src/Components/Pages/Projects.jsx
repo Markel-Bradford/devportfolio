@@ -119,12 +119,12 @@ function Projects() {
                 rel="noreferrer">
                 <img
                   className="github"
-                  src="/devportfolio_test/images/github.png"
+                  src="/devportfolio/images/github.png"
                   alt="link to Github repository"
                 />
                 <img
                     className="github2"
-                    src="/devportfolio_test/images/whitegithub.png"
+                    src="/devportfolio/images/whitegithub.png"
                     alt="link to Github repository"
                   />
               </a>
@@ -142,12 +142,12 @@ function Projects() {
                 rel="noreferrer">
                 <img
                   className="thumbnail"
-                  src="/devportfolio_test/images/safarigame.PNG"
+                  src="/devportfolio/images/safarigame.PNG"
                   alt="guessing game thumbnail"
                 />
                 <img
                   className="thumbnail-mobile"
-                  src="/devportfolio_test/images/safarimobile.PNG"
+                  src="/devportfolio/images/safarimobile.PNG"
                   alt="guessing game mobile thumbnail"
                 />
               </a>
@@ -239,12 +239,12 @@ function Projects() {
                 rel="noreferrer">
                 <img
                   className="github"
-                  src="/devportfolio_test/images/github.png"
+                  src="/devportfolio/images/github.png"
                   alt="link to Github repository"
                 />
                 <img
                     className="github2"
-                    src="/devportfolio_test/images/whitegithub.png"
+                    src="/devportfolio/images/whitegithub.png"
                     alt="link to Github repository"
                   />
               </a>
@@ -263,13 +263,13 @@ function Projects() {
                 <img
                   id="portfolio-thumbnail"
                   className="thumbnail"
-                  src="/devportfolio_test/images/mbconverter.PNG"
+                  src="/devportfolio/images/mbconverter.PNG"
                   alt="curency convertor thumbnail"
                 />
                 <img
                   className="thumbnail-mobile"
                   id="mobile-portfolio"
-                  src="/devportfolio_test/images/IMG_3345.jpg"
+                  src="/devportfolio/images/IMG_3345.jpg"
                   alt="curency convertor mobile thumbnail"
                 />
               </a>
@@ -336,12 +336,12 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="github"
-                    src="/devportfolio_test/images/github.png"
+                    src="/devportfolio/images/github.png"
                     alt="link to Github repository"
                   />
                   <img
                     className="github2"
-                    src="/devportfolio_test/images/whitegithub.png"
+                    src="/devportfolio/images/whitegithub.png"
                     alt="link to Github repository"
                   />
                 </a>
@@ -360,12 +360,12 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="thumbnail"
-                    src="/devportfolio_test/images/weatherapp.png"
+                    src="/devportfolio/images/weatherapp.png"
                     alt="Weather app create using react, weather, and geo apis"
                   />
                   <img
                     className="thumbnail-mobile"
-                    src="/devportfolio_test/images/IMG_2454.jpg"
+                    src="/devportfolio/images/IMG_2454.jpg"
                     alt="weather app mobile thumbnail"
                   />
                 </a>
@@ -438,12 +438,12 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="github"
-                    src="/devportfolio_test/images/github.png"
+                    src="/devportfolio/images/github.png"
                     alt="link to Github repository"
                   />
                   <img
                     className="github2"
-                    src="/devportfolio_test/images/whitegithub.png"
+                    src="/devportfolio/images/whitegithub.png"
                     alt="link to Github repository"
                   />
                 </a>
@@ -461,12 +461,12 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="thumbnail"
-                    src="/devportfolio_test/images/topfoundations.png"
+                    src="/devportfolio/images/topfoundations.png"
                     alt="Homepage for my Odin Project Foundations collection"
                   />
                   <img
                     className="thumbnail-mobile"
-                    src="/devportfolio_test/images/topmobile.PNG"
+                    src="/devportfolio/images/topmobile.PNG"
                     alt="odin project mobile thumbnail"
                   />
                 </a>
@@ -559,12 +559,12 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="github"
-                    src="/devportfolio_test/images/github.png"
+                    src="/devportfolio/images/github.png"
                     alt="link to Github repository"
                   />
                   <img
                     className="github2"
-                    src="/devportfolio_test/images/whitegithub.png"
+                    src="/devportfolio/images/whitegithub.png"
                     alt="link to Github repository"
                   />
                 </a>
@@ -583,12 +583,12 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="thumbnail"
-                    src="/devportfolio_test/images/finalproject.JPG"
+                    src="/devportfolio/images/finalproject.JPG"
                     alt="Final project for WEBD121 class"
                   />
                   <img
                     className="thumbnail-mobile"
-                    src="/devportfolio_test/images/IMG_2448.PNG"
+                    src="/devportfolio/images/IMG_2448.PNG"
                     alt="final project mobile thumbnail"
                   />
                 </a>
@@ -653,12 +653,12 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="github"
-                    src="/devportfolio_test/images/github.png"
+                    src="/devportfolio/images/github.png"
                     alt="link to Github repository"
                   />
                   <img
                     className="github2"
-                    src="/devportfolio_test/images/whitegithub.png"
+                    src="/devportfolio/images/whitegithub.png"
                     alt="link to Github repository"
                   />
                 </a>
@@ -677,12 +677,12 @@ function Projects() {
                   rel="noreferrer">
                   <img
                     className="thumbnail"
-                    src="/devportfolio_test/images/babyshowertemp.JPG"
+                    src="/devportfolio/images/babyshowertemp.JPG"
                     alt="Baby shower website template"
                   />
                   <img
                     className="thumbnail-mobile"
-                    src="/devportfolio_test/images/IMG_2447.PNG"
+                    src="/devportfolio/images/IMG_2447.PNG"
                     alt="baby shower template mobile thumbnail"
                   />
                 </a>

@@ -15,7 +15,7 @@ function HeroSection() {
   return (
     <div className="heroContainer" >
       <video
-        src="/devportfolio_test/videos/HeroBg.mp4"
+        src="/devportfolio/videos/HeroBg.mp4"
         playsInline
         autoPlay
         loop

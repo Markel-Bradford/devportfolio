@@ -16,7 +16,7 @@ function App() {
 
 
   return (
-    <Router basename='/devportfolio_test'>
+    <Router basename='/devportfolio'>
       <AnimatedRoutes />
     </Router>
   );

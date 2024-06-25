@@ -100,28 +100,28 @@ function AboutMe() {
         <div ref={skills} className={`${styles.skillContainer} ${skillsInView ? styles.animationFade : styles.hidden}`}>
           <img
             className="skill"
-            src="/devportfolio_test/images/trifecta.png"
+            src="/devportfolio/images/trifecta.png"
             alt="HTML CSS and JS Logo"
           />
           
           <img
             className="skill-2"
-            src="/devportfolio_test/logo512.png"
+            src="/devportfolio/logo512.png"
             alt="react logo"
           />
           <img
             className="py-skill"
-            src="/devportfolio_test/images/python.png"
+            src="/devportfolio/images/python.png"
             alt="python logo"
           />
           <img
             className="py-skill"
-            src="/devportfolio_test/images/firebase.png"
+            src="/devportfolio/images/firebase.png"
             alt="firebase logo"
           />
           <img
             className="skill-1"
-            src="/devportfolio_test/images/VScode.png"
+            src="/devportfolio/images/VScode.png"
             alt="VSCode logo"
           />
         </div>
@@ -135,7 +135,7 @@ function AboutMe() {
           </h2>
           <img
             className="cert-thumbnail"
-            src="/devportfolio_test/images/Responsive-webdesign-certificate.JPG"
+            src="/devportfolio/images/Responsive-webdesign-certificate.JPG"
             alt=""
           />
           <a
@@ -154,7 +154,7 @@ function AboutMe() {
           </h2>
           <img
             className="cert-thumbnail"
-            src="/devportfolio_test/images/dataquest-cert.JPG"
+            src="/devportfolio/images/dataquest-cert.JPG"
             alt=""
           />
           <a
