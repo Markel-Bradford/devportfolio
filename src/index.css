@@ -37,6 +37,7 @@ html,
   -moz-osx-font-smoothing: grayscale;
 
   font-family: "Audiowide", sans-serif;
+  transition: .8s;
 }
 
 h1,
@@ -44,6 +45,7 @@ h2,
 h3,
 h4 {
   color: var(--description-text);
+  transition: 1.3s;
 }
 
 .project-view,
@@ -51,6 +53,7 @@ h4 {
 p,
 .cardsItemText {
   color: var(--light-text);
+  transition: 1.3s;
 }
 
 .title-certs,
@@ -58,16 +61,19 @@ p,
 .project-view,
 .contactMethods {
   color: var(--section-title-text);
+  transition: 1.3s;
 }
 
 .about-me,
 .projects,
 .contact {
   color: var(--header-text);
+  transition: none;
 }
 
 .name {
   color: var(--name-text);
+  transition: 1.3s;
 }
 
 .filler,
@@ -80,18 +86,22 @@ p,
 .project-container,
 .contact-img {
   background-color: var(--dark-background);
+  transition: 1.3s;
 }
 
 .text-links:hover {
   color: var(--accent);
+  transition: 1.3s;
 }
 
 .verify {
   color: var(--accent);
+  transition: 1.3s;
 }
 
 .verify-link:hover {
   color: var(--accent);
+  transition: 1.3s;
 }
 
 .toggle {
@@ -125,10 +135,12 @@ p,
 
 .github {
   display: var(--display-gh);
+  transition: 1.3s;
 }
 
 .github2 {
   display: var(--display-gh2);
+  transition: 1.3s;
 }
 
 @media (prefers-color-scheme: dark) {
