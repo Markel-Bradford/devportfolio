@@ -6,7 +6,7 @@ function Footer() {
     <>
         <div className='footer'>
         <div className='footer-container'>
-        <p className='footer-name'>&copy; 2024 Markel Bradford | Front-end Developer</p>
+        <p className='footer-name'>&copy; 2024 Markel Bradford | Full-stack Developer</p>
         </div>
         </div>
     </>

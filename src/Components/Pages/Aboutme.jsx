@@ -44,10 +44,10 @@ function AboutMe() {
       <div className="about-container">
         <div className="about-me-container">
           <div ref={ref} className={`${inView ? styles.animationFade : styles.hidden}`}>
-          <h4 className="hello">Hello! My name is</h4>
-          <h2 className="name">Markel Bradford</h2>
+          <h4 className="hello">Hello! My name is,</h4>
+          <h2 className="name">Markel Bradford.</h2>
           <h3 className="titles">
-            Site Operations Manager | Student | Front-end Developer
+            Site Operations Manager | Student | Full-stack Developer
           </h3>
           </div>
           <div className="filler"></div>
@@ -58,7 +58,7 @@ function AboutMe() {
               Driven by a passion for innovation and a keen eye for detail, I am
               a results-oriented professional based in Huntsville, Alabama,
               poised to transition seamlessly from a successful management
-              career to the dynamic realm of front-end development. I thrive on
+              career to the dynamic realm of full-stack development. I thrive on
               challenges, finding common ground between the strategic demands of
               management and the creative problem-solving inherent in
               development. Currently proficient in languages such as
@@ -83,7 +83,7 @@ function AboutMe() {
             <p>
               In my professional capacity, I serve as a Site Operations Manager
               at Stratosphere Quality, a leading third-party quality assurance
-              company, while concurrently holding a freelance front-end web developer
+              company, while concurrently holding a freelance web developer
               position at Kaiju's Grub LLC. With a history of leadership roles
               dating back to my teenage years, I bring a wealth of experience
               and a proactive approach to every challenge. Now, I eagerly seek
