@@ -65,10 +65,33 @@
       }
       scrollleft();
     </script>
-    <title>Markel Bradford - Developer Portfolio_Test</title>
+    <title>Markel Bradford - Developer Portfolio</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDmTNjbf9E_FTclqOmjaw0XSiIt28IK2kQ",
+        authDomain: "portfolio-b31d5.firebaseapp.com",
+        projectId: "portfolio-b31d5",
+        storageBucket: "portfolio-b31d5.appspot.com",
+        messagingSenderId: "857647165026",
+        appId: "1:857647165026:web:e5fa7a2d3c4931d5fd2b3b",
+        measurementId: "G-DFPG1F5V8L"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
