@@ -73,10 +73,8 @@ function Projects() {
   });
 
   return (
-    <div
-    id="projects"
-    className="projectsBg">
-        <div className="filler2"></div>
+    <div id="projects" className="projectsBg">
+      <div className="filler2"></div>
       <h1 ref={title} className="projects">
         {" "}
         <span
@@ -91,6 +89,110 @@ function Projects() {
           </h2>
         </div>
         <div className="project-files">
+        <div
+          ref={projectName3}
+          className={`${
+            projectName3InView ? styles.animationFade : styles.hidden
+          }`}>
+          <div className="project-name-container">
+            <a
+              className="text-links"
+              href="https://nextproducttemplate.vercel.app/"
+              target="_blank"
+              rel="noreferrer">
+              <h3 className="project-name">
+                Platinum Threads E-Commerce Template:
+                <br />{" "}
+                <span className="tech"> NextJS, React, TypeScript, TailwindCSS</span>
+              </h3>
+            </a>
+            <a
+              href="https://github.com/Markel-Bradford/nextproducttemplate"
+              target="_blank"
+              rel="noreferrer">
+              <img
+                className="github"
+                src="/devportfolio/images/github.png"
+                alt="link to Github repository"
+              />
+              <img
+                className="github2"
+                src="/devportfolio/images/whitegithub.png"
+                alt="link to Github repository"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          ref={project3}
+          className={`${
+            project3InView ? styles.animationFade : styles.hidden
+          }`}>
+          <div className="thumbnail-wrapper">
+            <a
+              className="text-links"
+              href="https://nextproducttemplate.vercel.app/"
+              target="_blank"
+              rel="noreferrer">
+              <img
+                className="thumbnail"
+                src="/devportfolio/images/pthreads.PNG"
+                alt="NextJS E-commerce template"
+              />
+              <img
+                className="thumbnail-mobile"
+                src="/devportfolio/images/pthreadsmobile.PNG"
+                alt="NextJS E-commerce template mobile"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          ref={projectInfo3}
+          className={`${
+            projectInfo3InView ? styles.animationFade : styles.hidden
+          }`}>
+          <p className="information">
+            The objective of this project was to create a comprehensive
+            e-commerce platform that showcases my expertise in modern web
+            development technologies, particularly focusing on Next.js, Tailwind
+            CSS, and related tools. This project highlights my ability to build
+            a sophisticated, responsive, and dynamic web application from
+            scratch.
+          </p>
+          <p className="information">
+            The first part of the project involved setting up the frontend using
+            Next.js, a popular React framework. Next.js facilitates server-side
+            rendering, static site generation, and dynamic routing, ensuring
+            optimal performance and SEO. The application's UI is built with
+            Tailwind CSS, a utility-first CSS framework, to provide a consistent
+            and visually appealing design across all pages.
+          </p>
+          <p className="information">
+            The second part of the project focused on implementing responsive
+            and interactive user interfaces. Components like the navbar, hero
+            section, product cards, and footers were meticulously crafted using
+            Tailwind CSS and React. These components ensure a seamless user
+            experience across various devices, adapting to different screen
+            sizes with ease.
+          </p>
+          <p className="information">
+            The third aspect of the project involved integrating dynamic
+            features and animations. Custom animations were defined in the
+            Tailwind CSS configuration to enhance user interactions, such as
+            smooth transitions and fade-in effects. These animations were
+            applied to elements like product cards and the hero section to
+            create a more engaging and interactive user interface.
+          </p>
+          <p className="information">
+            Finally, the project was deployed on Vercel, a platform optimized
+            for Next.js applications. This deployment step highlights my skills
+            in deploying and managing web applications in a production
+            environment. Vercel's seamless integration with GitHub ensured
+            continuous deployment and version control, making it easy to manage
+            and update the application.
+          </p>
+        </div>
           <div
             ref={projectName4}
             className={`${
@@ -123,10 +225,10 @@ function Projects() {
                   alt="link to Github repository"
                 />
                 <img
-                    className="github2"
-                    src="/devportfolio/images/whitegithub.png"
-                    alt="link to Github repository"
-                  />
+                  className="github2"
+                  src="/devportfolio/images/whitegithub.png"
+                  alt="link to Github repository"
+                />
               </a>
             </div>
           </div>
@@ -243,10 +345,10 @@ function Projects() {
                   alt="link to Github repository"
                 />
                 <img
-                    className="github2"
-                    src="/devportfolio/images/whitegithub.png"
-                    alt="link to Github repository"
-                  />
+                  className="github2"
+                  src="/devportfolio/images/whitegithub.png"
+                  alt="link to Github repository"
+                />
               </a>
             </div>
           </div>
@@ -625,96 +727,6 @@ function Projects() {
                 professional, responsive website that reflects my dedication to
                 the field of web development and adapts seamlessly to different
                 screen sizes and devices.
-              </p>
-            </div>
-            <div
-              ref={projectName3}
-              className={`${
-                projectName3InView ? styles.animationFade : styles.hidden
-              }`}>
-              <div className="project-name-container">
-                <a
-                  className="text-links"
-                  href="https://markel-bradford.github.io/baby-shower-website-template"
-                  target="_blank"
-                  rel="noreferrer">
-                  <h3 className="project-name">
-                    Baby Shower Website Template:
-                    <br />{" "}
-                    <span className="tech">
-                      {" "}
-                      React, JavaScript, HTML5, CSS3
-                    </span>
-                  </h3>
-                </a>
-                <a
-                  href="https://github.com/Markel-Bradford/baby-shower-website-template"
-                  target="_blank"
-                  rel="noreferrer">
-                  <img
-                    className="github"
-                    src="/devportfolio/images/github.png"
-                    alt="link to Github repository"
-                  />
-                  <img
-                    className="github2"
-                    src="/devportfolio/images/whitegithub.png"
-                    alt="link to Github repository"
-                  />
-                </a>
-              </div>
-            </div>
-            <div
-              ref={project3}
-              className={`${
-                project3InView ? styles.animationFade : styles.hidden
-              }`}>
-              <div className="thumbnail-wrapper">
-                <a
-                  className="text-links"
-                  href="https://markel-bradford.github.io/baby-shower-website-template"
-                  target="_blank"
-                  rel="noreferrer">
-                  <img
-                    className="thumbnail"
-                    src="/devportfolio/images/babyshowertemp.JPG"
-                    alt="Baby shower website template"
-                  />
-                  <img
-                    className="thumbnail-mobile"
-                    src="/devportfolio/images/IMG_2447.PNG"
-                    alt="baby shower template mobile thumbnail"
-                  />
-                </a>
-              </div>
-            </div>
-            <div
-              ref={projectInfo3}
-              className={`${
-                projectInfo3InView ? styles.animationFade : styles.hidden
-              }`}>
-              <p className="information">
-                This project was born out of my excitement and anticipation for
-                a significant life event—the impending arrival of my son. Fueled
-                by this anticipation, I channeled my energy into creating a
-                personalized website using ReactJS. Motivated by a desire to
-                share this experience while respecting privacy, I developed a
-                versatile template that users can customize to their own
-                preferences.
-              </p>
-              <p className="information">
-                The website features intuitive card components that lead users
-                to sections such as location details, a video gallery
-                documenting the pregnancy journey, and important links for RSVP
-                and registry information. Through the use of ReactJS, I aimed to
-                capture the essence of this special moment, ensuring that every
-                aspect of the website reflected the joy and preparation
-                surrounding the imminent arrival of my son.
-              </p>
-              <p className="information">
-                This project serves as a digital memento, celebrating life's
-                cherished milestones while showcasing the power of technology to
-                preserve memories for years to come.
               </p>
             </div>
           </div>
