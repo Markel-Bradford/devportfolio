@@ -57,12 +57,12 @@ function AboutMe() {
             <p>
               Driven by a passion for innovation and a keen eye for detail, I am
               a results-oriented professional based in Huntsville, Alabama,
-              poised to transition seamlessly from a successful management
+              working to transition seamlessly from a successful management
               career to the dynamic realm of full-stack development. I thrive on
               challenges, finding common ground between the strategic demands of
               management and the creative problem-solving inherent in
-              development. Currently proficient in languages such as
-              HTML5, CSS, JavaScript, ReactJS, and Python, I am committed to continual
+              development. Currently proficient in languages and frameworks such as
+              HTML5, CSS, JavaScript, Python, React, Next,js, and TailwindCSS, I am committed to continual
               growth, driven by a combination of rigorous research and hands-on
               application.
             </p>
@@ -84,7 +84,8 @@ function AboutMe() {
               In my professional capacity, I serve as a Site Operations Manager
               at Stratosphere Quality, a leading third-party quality assurance
               company, while concurrently holding a freelance web developer
-              position at Kaiju's Grub LLC. With a history of leadership roles
+              position at Kaiju's Grub LLC and a Web Design intern position in 
+              with Jazz Crawl Productions. With a history of leadership roles
               dating back to my teenage years, I bring a wealth of experience
               and a proactive approach to every challenge. Now, I eagerly seek
               internships and entry-level opportunities that will allow me to
@@ -108,6 +109,26 @@ function AboutMe() {
             className="skill-2"
             src="/devportfolio/logo512.png"
             alt="react logo"
+          />
+          <img
+            className="skill-3"
+            src="/devportfolio/images/nextdark.png"
+            alt="Nextjs logo"
+          />
+          <img
+            className="skill-4"
+            src="/devportfolio/images/nodejs.png"
+            alt="Nodejs logo"
+          />
+          <img
+            className="skill-4"
+            src="/devportfolio/images/typescript.png"
+            alt="Typescript logo"
+          />
+          <img
+            className="py-skill"
+            src="/devportfolio/images/tailwind.png"
+            alt="Tailwind logo"
           />
           <img
             className="py-skill"

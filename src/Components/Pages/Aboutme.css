@@ -45,6 +45,8 @@ h3, h4 {
 
 .skills-container {
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -64,6 +66,14 @@ h3, h4 {
 
 .py-skill {
     width: 200px;
+}
+
+.skill-3 {
+    width: 180px;
+}
+
+.skill-4 {
+    width: 150px;
 }
 
 @keyframes spin {
@@ -115,16 +125,27 @@ h3, h4 {
     }
 
     .skill {
-        width: 200px; 
+        width: 120px; 
      }
 
      .skill-1 {
-        width: 125px;
-        margin-top: 75px;
+        width: 120px;
     }
 
     .skill-2 {
-        margin-top: 50px;
+        width: 140px;
+    }
+
+    .py-skill {
+        width: 150px;
+    }
+
+    .skill-3 {
+        width: 130px;
+    }
+
+    .skill-4{
+        width: 110px;
     }
 
     .certification {
