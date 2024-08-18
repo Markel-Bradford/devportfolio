@@ -134,15 +134,23 @@ function Projects() {
               href="https://nextproducttemplate.vercel.app/"
               target="_blank"
               rel="noreferrer">
-              <img
+              <video
                 className="thumbnail"
-                src="/devportfolio/images/pthreads.PNG"
+                src="/devportfolio/videos/Pthread.mp4"
                 alt="NextJS E-commerce template"
+                muted
+                playsInline
+                autoPlay
+                loop
               />
-              <img
+              <video
                 className="thumbnail-mobile"
-                src="/devportfolio/images/pthreadsmobile.PNG"
+                src="/devportfolio/videos/pthreadsmobile.mp4"
                 alt="NextJS E-commerce template mobile"
+                muted
+                playsInline
+                autoPlay
+                loop
               />
             </a>
           </div>
@@ -242,15 +250,23 @@ function Projects() {
                 href="https://safariguessingame-0deac2bf61b5.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer">
-                <img
+                <video
                   className="thumbnail"
-                  src="/devportfolio/images/safarigame.PNG"
+                  src="/devportfolio/videos/Safarigame.mp4"
                   alt="guessing game thumbnail"
+                muted
+                playsInline
+                autoPlay
+                loop
                 />
-                <img
+                <video
                   className="thumbnail-mobile"
-                  src="/devportfolio/images/safarimobile.PNG"
+                  src="/devportfolio/videos/safarimobile.mp4"
                   alt="guessing game mobile thumbnail"
+                muted
+                playsInline
+                autoPlay
+                loop
                 />
               </a>
             </div>
@@ -362,17 +378,25 @@ function Projects() {
                 href="https://mbconverter.onrender.com/"
                 target="_blank"
                 rel="noreferrer">
-                <img
+                <video
                   id="portfolio-thumbnail"
                   className="thumbnail"
-                  src="/devportfolio/images/mbconverter.PNG"
+                  src="/devportfolio/videos/converter.mp4"
                   alt="curency convertor thumbnail"
+                  muted
+                playsInline
+                autoPlay
+                loop
                 />
-                <img
+                <video
                   className="thumbnail-mobile"
                   id="mobile-portfolio"
-                  src="/devportfolio/images/IMG_3345.jpg"
+                  src="/devportfolio/videos/convertermobile.mp4"
                   alt="curency convertor mobile thumbnail"
+                  muted
+                playsInline
+                autoPlay
+                loop
                 />
               </a>
             </div>
@@ -460,15 +484,23 @@ function Projects() {
                   href="https://mbweatherapp.onrender.com/"
                   target="_blank"
                   rel="noreferrer">
-                  <img
+                  <video
                     className="thumbnail"
-                    src="/devportfolio/images/weatherapp.png"
+                    src="/devportfolio/videos/Weather.mp4"
                     alt="Weather app create using react, weather, and geo apis"
+                    muted
+                playsInline
+                autoPlay
+                loop
                   />
-                  <img
+                  <video
                     className="thumbnail-mobile"
-                    src="/devportfolio/images/IMG_2454.jpg"
+                    src="/devportfolio/videos/weathermobile.mp4"
                     alt="weather app mobile thumbnail"
+                    muted
+                playsInline
+                autoPlay
+                loop
                   />
                 </a>
               </div>
@@ -561,15 +593,23 @@ function Projects() {
                   href="https://markel-bradford.github.io/odinprojectfoundations/"
                   target="_blank"
                   rel="noreferrer">
-                  <img
+                  <video
                     className="thumbnail"
-                    src="/devportfolio/images/topfoundations.png"
+                    src="/devportfolio/videos/Odin.mp4"
                     alt="Homepage for my Odin Project Foundations collection"
+                    muted
+                playsInline
+                autoPlay
+                loop
                   />
-                  <img
+                  <video
                     className="thumbnail-mobile"
-                    src="/devportfolio/images/topmobile.PNG"
+                    src="/devportfolio/videos/odinmobile.mp4"
                     alt="odin project mobile thumbnail"
+                    muted
+                playsInline
+                autoPlay
+                loop
                   />
                 </a>
               </div>
@@ -683,15 +723,23 @@ function Projects() {
                   href="https://markel-bradford.github.io/WEB121-Final/index.html"
                   target="_blank"
                   rel="noreferrer">
-                  <img
+                  <video
                     className="thumbnail"
-                    src="/devportfolio/images/finalproject.JPG"
+                    src="/devportfolio/videos/Final.mp4"
                     alt="Final project for WEBD121 class"
+                    muted
+                playsInline
+                autoPlay
+                loop
                   />
-                  <img
+                  <video
                     className="thumbnail-mobile"
-                    src="/devportfolio/images/IMG_2448.PNG"
+                    src="/devportfolio/videos/finalmobile.mp4"
                     alt="final project mobile thumbnail"
+                    muted
+                playsInline
+                autoPlay
+                loop
                   />
                 </a>
               </div>

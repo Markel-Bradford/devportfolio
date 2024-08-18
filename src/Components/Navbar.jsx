@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import './Navbar.css';
 import './ScrollToTop';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
@@ -10,12 +10,31 @@ function Navbar() {
     const handleClick = () => setClick(!click); /*reverses false click state set*/
     const closeMobileMenu = () => setClick(false);
 
+    const [isShrunk, setIsShrunk] = useState(false);
 
+    useEffect(() => {
+      const handleScroll = () => {
+        const heroHeight = document.querySelector('.heroContainer').offsetHeight;
+        const scrollPosition = window.scrollY;
+        
+        if (scrollPosition >= heroHeight) {
+          setIsShrunk(true);
+        } else {
+          setIsShrunk(false);
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, [])
     
 
   return (
     <>
-    <nav className='navbar'>
+    <nav className={`navbar ${isShrunk ? 'navbar-shrink' : ''}`}>
         <div className='navbar-container'>
             <AnchorLink href="#home" className="navbar-logo" onClick={closeMobileMenu}>
                 MB.Portfolio
