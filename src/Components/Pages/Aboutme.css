@@ -76,6 +76,14 @@ h3, h4 {
     width: 150px;
 }
 
+.skill-5 {
+    width: 250px;
+}
+
+.skill-6 {
+    width: 280px;
+}
+
 @keyframes spin {
     from {
       transform: rotateZ(0deg);
@@ -125,7 +133,7 @@ h3, h4 {
     }
 
     .skill {
-        width: 100px; 
+        width: 110px; 
      }
 
      .skill-1 {
@@ -146,6 +154,14 @@ h3, h4 {
 
     .skill-4{
         width: 80px;
+    }
+
+    .skill-5 {
+        width: 160px;
+    }
+
+    .skill-6 {
+        width: 160px;
     }
 
     .certification {

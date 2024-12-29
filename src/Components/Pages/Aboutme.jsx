@@ -62,7 +62,7 @@ function AboutMe() {
               challenges, finding common ground between the strategic demands of
               management and the creative problem-solving inherent in
               development. Currently proficient in languages and frameworks such as
-              HTML5, CSS, JavaScript, Python, React, Next,js, and TailwindCSS, I am committed to continual
+              HTML5, CSS, JavaScript, Python, React, Nextjs, Express, MongoDB, SQLite, and TailwindCSS, I am committed to continual
               growth, driven by a combination of rigorous research and hands-on
               application.
             </p>
@@ -110,15 +110,30 @@ function AboutMe() {
             src="/devportfolio/logo512.png"
             alt="react logo"
           />
-          <img
+                    <img
             className="skill-3"
             src="/devportfolio/images/nextdark.png"
             alt="Nextjs logo"
           />
           <img
+            className="skill-5"
+            src="/devportfolio/images/express.png"
+            alt="ExpressJs"
+          />
+          <img
             className="skill-4"
             src="/devportfolio/images/nodejs.png"
             alt="Nodejs logo"
+          />
+          <img
+            className="skill-3"
+            src="/devportfolio/images/mongo.png"
+            alt="MongoDB"
+          />
+          <img
+            className="skill-6"
+            src="/devportfolio/images/sqlite.png"
+            alt="MongoDB"
           />
           <img
             className="skill-4"
