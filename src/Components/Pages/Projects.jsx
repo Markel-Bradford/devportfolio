@@ -144,7 +144,7 @@ function Projects() {
               >
                 <video
                   className="thumbnail"
-                  src="/devportfolio/videos/Final.mp4"
+                  src="/devportfolio/videos/budgetpc.mp4"
                   alt="Final project for WEBD121 class"
                   muted
                   playsInline
@@ -153,7 +153,7 @@ function Projects() {
                 />
                 <video
                   className="thumbnail-mobile"
-                  src="/devportfolio/videos/finalmobile.mp4"
+                  src="/devportfolio/videos/budgetmobile.mov"
                   alt="final project mobile thumbnail"
                   muted
                   playsInline
@@ -212,7 +212,6 @@ function Projects() {
             </p>
           </div>
         </div>
-      </div>
       <div
         ref={projectName3}
         className={`${
@@ -812,6 +811,7 @@ function Projects() {
         </div>
       </div>
     </div>
+  </div>
   );
 }
 
