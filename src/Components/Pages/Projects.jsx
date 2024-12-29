@@ -112,7 +112,7 @@ function Projects() {
                 </h3>
               </a>
               <a
-                href="https://markel-bradford.github.io/BudgetApp/"
+                href="https://github.com/Markel-Bradford/BudgetApp"
                 target="_blank"
                 rel="noreferrer"
               >

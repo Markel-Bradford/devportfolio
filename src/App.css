@@ -20,7 +20,7 @@
 }
 
 .about-me {
-  background-image: url('/public/images/bluebg.jpeg');
+  background-image: url('/images/bluebg.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@
 }
 
 .projects {
-  background-image: url('/public/images/smoke.jpg');
+  background-image: url('/images/smoke.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 }
 
 .contact {
-  background-image: url('/public/images/gradient.jpeg');
+  background-image: url('/images/gradient.jpeg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
