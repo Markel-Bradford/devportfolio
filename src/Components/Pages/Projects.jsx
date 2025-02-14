@@ -138,7 +138,7 @@ function Projects() {
             <div className="thumbnail-wrapper">
               <a
                 className="text-links"
-                href="https://markel-bradford.github.io/WEB121-Final/index.html"
+                href="https://markel-bradford.github.io/BudgetApp/"
                 target="_blank"
                 rel="noreferrer"
               >
