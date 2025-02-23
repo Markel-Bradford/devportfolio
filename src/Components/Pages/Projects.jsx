@@ -759,21 +759,21 @@ function Projects() {
         >
           <div>
             <div>
-              <p class="information">
+              <p className="information">
                 The objective of this collection of projects was to reinforce
                 and further develop my understanding of the fundamentals of web
                 development, namely HTML, CSS, and JavaScript. As these form the
                 cornerstone of web development, I deemed it imperative to
                 solidify existing knowledge and augment my skill set.
               </p>
-              <p class="information">
+              <p className="information">
                 The first project entailed replicating a generic landing page
                 based on a provided image, while infusing it with original
                 content. Opting to design a landing page for a fitness business,
                 I utilized flexbox for creating scalable containers and content,
                 employing solely HTML5 and CSS3 for its realization.
               </p>
-              <p class="information">
+              <p className="information">
                 The second project involved crafting a simple rock, paper,
                 scissors game, employing JavaScript to manipulate the DOM. In
                 this interactive game, the player engages with a computer
@@ -782,7 +782,7 @@ function Projects() {
                 choices, alongside win condition functions, were implemented,
                 rendering the first player to attain 5 points the winner.
               </p>
-              <p class="information">
+              <p className="information">
                 For the third project, the challenge was to complete an
                 etch-a-sketch by establishing a scalable grid using flexbox.
                 While CSS Grid could have been utilized, the aim was to
@@ -793,7 +793,7 @@ function Projects() {
                 black or a randomly generated array of rainbow colors upon mouse
                 interaction.
               </p>
-              <p class="information">
+              <p className="information">
                 The final project entailed developing a functional calculator
                 capable of executing the four basic mathematical functions.
                 While the project stipulated a simple HTML-based calculator, I
