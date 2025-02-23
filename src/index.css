@@ -1,7 +1,8 @@
 .theme-dark {
   --light-text: #ffffff;
+  --titles-text: midnightblue;
   --header-text: #ffd700;
-  --name-text: #ffd700;
+  --name-text: midnightblue;
   --dark-background: #111;
   --section-title-text: #ffd700;
   --description-text: #fff;
@@ -10,12 +11,16 @@
   --toggle: #fff;
   --display-gh: none;
   --display-gh2: display;
+  --postcard-bg: #fff;
+  --postcard-text: black; 
+  --postcard-links: midnightblue;
 }
 
 .theme-light {
   --light-text: #000;
+  --titles-text: #ffd700;
   --header-text: #fff;
-  --name-text: black;
+  --name-text: #ffd700;
   --dark-background: #fff;
   --section-title-text: midnightblue;
   --description-text: midnightblue;
@@ -24,6 +29,9 @@
   --toggle: green;
   --display-gh: display;
   --display-gh2: none;
+  --postcard-bg: #222;
+  --postcard-text: #fff;
+  --postcard-links: #ffd700;
 }
 
 html,
@@ -76,10 +84,14 @@ p,
   transition: 1.3s;
 }
 
+.titles {
+  color: var(--titles-text);
+}
+
 .filler,
 .filler2,
 .cards,
-.about-me-container,
+.about-container,
 .skills-container,
 .contactContainer,
 .skillContainer,
@@ -89,18 +101,22 @@ p,
   transition: 1.3s;
 }
 
+.postcard {
+  background: var(--postcard-bg);
+}
+
 .text-links:hover {
   color: var(--accent);
   transition: 1.3s;
 }
 
-.verify {
-  color: var(--accent);
-  transition: 1.3s;
+.titles {
+  color: var(--);
 }
 
-.verify-link:hover {
-  color: var(--accent);
+ 
+.postcard-links a {
+  color: var(--postcard-links);
   transition: 1.3s;
 }
 
@@ -143,6 +159,18 @@ p,
   transition: 1.3s;
 }
 
+.postcard {
+  background: var(--postcard-bg);
+}
+
+.postcard p {
+  color: var(--postcard-text);
+}
+
+.postcard ul {
+  transition: 1.3s;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color: var(--light-text);
@@ -182,7 +210,7 @@ p,
 
   .filler2,
   .cards,
-  .about-me-container,
+  .about-container,
   .skills-container,
   .contactContainer,
   .skillContainer,
@@ -195,12 +223,48 @@ p,
     color: var(--accent);
   }
 
-  .verify {
+  .postcard {
+    box-shadow: 0 4px 6px rgba(255, 255, 255, .6);
+  }
+
+  .postcard p {
+    color: var(--postcard-text);
+  }
+
+  .postcard ul {
+    color: var(--postcard-text)
+    
+  }
+
+  
+  .postcard-links a {
     color: var(--accent);
   }
 
-  .verify-link:hover {
-    color: var(--accent);
+  .postcard-links a {
+    color: var(--postcard-links);
+    transition: 1.3s;
+  }
+
+  @media (max-width: 768px) {
+    .name,
+    .titles {
+      color: var(--accent);
+    }
+    .postcard {
+      background: var(--dark-background);
+      box-shadow: none;
+    }
+    .postcard p,
+     .postcard ul {
+      color: var(--light-text);
+    }
+  
+    .postcard-links a {
+      color: var(--accent);
+      transition: 1.3s;
+    }
+  
   }
 }
 
@@ -243,7 +307,7 @@ p,
 
   .filler2,
   .cards,
-  .about-me-container,
+  .about-container,
   .skills-container,
   .contactContainer,
   .skillContainer,
@@ -260,11 +324,13 @@ p,
     display: none;
   }
 
-  .verify {
-    color: var(--accent);
+  .postcard {
+    box-shadow: 0 6px 10px rgba(red, green, blue, .6);
   }
 
-  .verify-link:hover {
-    color: var(--accent);
+ .postcard-links a {
+    color: var(--postcard-links);
+    transition: 1.3s;
   }
+
 }
