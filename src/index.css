@@ -285,6 +285,11 @@ p,
     color: var(--light-text);
   }
 
+  .me-text,
+  .highlights {
+    color: var(--postcard-text);
+  }
+
   #learn,
   .project-view,
   .contactMethods {

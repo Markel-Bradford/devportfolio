@@ -20,7 +20,7 @@ function AboutMe() {
 
         <div className="postcard-content">
           <h2 className="name">Markel Bradford</h2>
-          <h3 className="titles">Site Operations Manager | Student | Full-stack Developer</h3>
+          <h3 className="titles">Full-Stack Developer | Site Operations Manager | Student</h3>
           
           <p className="me-text">
             Passionate about innovation and problem-solving, I&apos;m transitioning from a 
