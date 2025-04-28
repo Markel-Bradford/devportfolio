@@ -31,7 +31,7 @@ function AboutMe() {
 
           <ul className="highlights">
             <li>💻 Proficient in React, Next.js, Python, Express, MongoDB</li>
-            <li>🎓 B.S. in Information Technology (Graduating 2025)</li>
+            <li>🎓 B.S. in Information Technology - GPA 4.0 (March 2025)</li>
             <li>🚀 Freelance Developer & Web Design Intern</li>
           </ul>
 
