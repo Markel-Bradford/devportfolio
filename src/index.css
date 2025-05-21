@@ -96,7 +96,8 @@ p,
 .contactContainer,
 .skillContainer,
 .project-container,
-.contact-img {
+.contact-img,
+.projectTitle {
   background-color: var(--dark-background);
   transition: 1.3s;
 }
