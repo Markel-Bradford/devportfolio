@@ -141,13 +141,11 @@
 }
 
 .project-links-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
-
-
 
 .tech {
   font-size: 16px;
@@ -188,6 +186,26 @@
   text-decoration: underline;
 }
 
+/* Expandable Card CSS */
+.expandable-card {
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.expanded-details {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+  overflow: hidden;
+  padding: 0;
+}
+
+.expanded-details.show {
+  max-height: 200px; /* adjust depending on content */
+  opacity: 1;
+  padding: 20px 0;
+}
+
 @media screen and (max-width: 960px) {
   .project-container {
     justify-content: center;
@@ -212,6 +230,20 @@
     text-align: center;
     font-size: 26px;
     padding: 20px;
+  }
+
+  .projectCard.expanded {
+    position: fixed; /* Stay in viewport */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Perfect center */
+    width: 90vw; /* Responsive width */
+    max-width: 400px; /* Prevent being too wide */
+    z-index: 1000; /* Ensure it's on top */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    overflow-y: auto;
   }
 
   .tech {
@@ -248,25 +280,4 @@
   .projectName {
     font-size: 18px;
   }
-  
-}
-
-/* Expandable Card CSS */
-.expandable-card {
-  transition: all 0.3s ease-in-out;
-  overflow: hidden;
-}
-
-.expanded-details {
-  max-height: 0;
-  opacity: 0;
-  transition: max-height 0.4s ease, opacity 0.3s ease;
-  overflow: hidden;
-  padding: 0;
-}
-
-.expanded-details.show {
-  max-height: 200px; /* adjust depending on content */
-  opacity: 1;
-  padding: 20px 0;
 }
