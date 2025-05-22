@@ -91,8 +91,9 @@ function Projects() {
           Please browse and review the projects I've completed
         </h2>
       </div>
+
       <div ref={ref} className="project-container">
-        <div>
+        <div className="projectCard">
         <div
           ref={projectName2}
           className={`${
@@ -168,7 +169,7 @@ function Projects() {
         </div>
         </div>
 
-        <div>
+        <div className="projectCard">
         <div
           ref={projectName3}
           className={`${
@@ -187,7 +188,7 @@ function Projects() {
                 <br />{" "}
                 <span className="tech">
                   {" "}
-                  NextJS, React, TypeScript, TailwindCSS
+                  NextJS, React, TS, TailwindCSS
                 </span>
               </h3>
             </a>
@@ -242,7 +243,7 @@ function Projects() {
           </div>
         </div>
         </div>
-        <div>
+        <div className="projectCard">
         <div
           ref={projectName4}
           className={`${
@@ -262,8 +263,8 @@ function Projects() {
                 <span className="tech">
                   {" "}
                   <br />
-                  React, JavaScript, HTML5, CSS3, Python,
-                  Firebase Authentication
+                  React, JS, HTML5, CSS3, Python,
+                  Firebase
                 </span>
               </h3>
             </a>
@@ -317,7 +318,7 @@ function Projects() {
           </div>
         </div>
         </div>
-        <div>
+        <div className="projectCard">
         <div
           ref={projectName6}
           className={`${
@@ -336,7 +337,7 @@ function Projects() {
                 <br />{" "}
                 <span className="tech">
                   {" "}
-                  React, JavaScript, HTML5, CSS3, REST API
+                  React, JS, HTML5, CSS3, REST API
                 </span>
               </h3>
             </a>
@@ -393,6 +394,7 @@ function Projects() {
         </div>
         </div>
 
+          <div className="projectCard">
         <div ref={projectName1}>
           <div
             className={`${
@@ -410,10 +412,9 @@ function Projects() {
                   React Weather App:
                   <br />{" "}
                   <span className="tech">
-                    React, Java Script, HTML5, CSS3, REST APIs
+                    React, JS, HTML5, CSS3, REST APIs
                   </span>
                 </h3>
-                {/*<h3 className="grade">Grade: A</h3>*/}
               </a>
               <a
                 href="https://github.com/Markel-Bradford/react-weatherapp"
@@ -468,8 +469,9 @@ function Projects() {
             </div>
           </div>
         </div>
+        </div>
 
-        <div>
+        <div className="projectCard">
           <div
             ref={projectName5}
             className={`${
@@ -487,7 +489,7 @@ function Projects() {
                   The Odin Project:
                   <br />{" "}
                   <span className="tech">
-                    HTML, CSS, JavaScript, Responsive Design
+                    HTML5, CSS3, JS, Responsive Design
                   </span>
                 </h3>
               </a>

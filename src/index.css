@@ -11,7 +11,7 @@
   --toggle: #fff;
   --display-gh: none;
   --display-gh2: display;
-  --postcard-bg: #fff;
+  --card-bg: #fff;
   --postcard-text: black; 
   --postcard-links: midnightblue;
 }
@@ -29,7 +29,7 @@
   --toggle: green;
   --display-gh: display;
   --display-gh2: none;
-  --postcard-bg: #222;
+  --card-bg: #222;
   --postcard-text: #fff;
   --postcard-links: #ffd700;
 }
@@ -97,13 +97,13 @@ p,
 .skillContainer,
 .project-container,
 .contact-img,
-.projectTitle {
+#projectTitle {
   background-color: var(--dark-background);
   transition: 1.3s;
 }
 
 .postcard {
-  background: var(--postcard-bg);
+  background: var(--card-bg);
 }
 
 .text-links:hover {
@@ -161,7 +161,7 @@ p,
 }
 
 .postcard {
-  background: var(--postcard-bg);
+  background: var(--card-bg);
 }
 
 .postcard p {
@@ -216,7 +216,8 @@ p,
   .contactContainer,
   .skillContainer,
   .project-container,
-  .contact-img {
+  .contact-img,
+  #projectTitle {
     background-color: var(--dark-background);
   }
 
@@ -318,16 +319,13 @@ p,
   .contactContainer,
   .skillContainer,
   .project-container,
-  .contact-img {
+  .contact-img,
+  #projectTitle {
     background-color: var(--dark-background);
   }
 
   .text-links:hover {
     color: var(--accent);
-  }
-
-  .github2 {
-    display: none;
   }
 
   .postcard {
