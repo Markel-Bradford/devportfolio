@@ -12,8 +12,6 @@
     background-color: #fff;
     position: relative;
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
-    gap: 40px;
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
@@ -27,6 +25,7 @@
     border: 2px solid rgba(56, 125, 255, 0.17);
     border-radius: 12px;
     padding: 10px;
+    list-style: none;
 }
 
 .projectCard:hover {
@@ -95,6 +94,12 @@
 
 .tech {
     font-size: 16px;
+}
+
+.githubContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .github, .github2 {
@@ -176,7 +181,6 @@
 
     .github {
         width: 85px;
-        margin-top: 25px;
-        margin-right: 15px;
+        
     }
 }

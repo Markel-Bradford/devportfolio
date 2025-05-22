@@ -56,6 +56,10 @@
   visibility: hidden;
 }
 
+.cardsItems {
+  display: contents; /* ensure that ul doesn't interfere with grid */
+}
+
 @keyframes fadein {
   0% {
     opacity: 0;
@@ -106,6 +110,12 @@
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
+}
+
+.projectCardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+  gap: 40px;
 }
 
 .cardsWrapper {
