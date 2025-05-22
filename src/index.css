@@ -97,9 +97,15 @@ p,
 .skillContainer,
 .project-container,
 .contact-img,
-#projectTitle {
+#projectTitle
+{
   background-color: var(--dark-background);
   transition: 1.3s;
+}
+
+.projectCard.expanded  {
+  background-color: var(--dark-background);
+  transition: .5s;
 }
 
 .postcard {
@@ -195,7 +201,9 @@ p,
     color: var(--section-title-text);
   }
 
-  .cardsItemText {
+  .cardsItemText,
+  .close-btn,
+  .text-links {
     color: var(--card-text);
   }
 
@@ -308,7 +316,9 @@ p,
     color: var(--section-title-text);
   }
 
-  .cardsItemText {
+  .cardsItemText,
+  .close-btn,
+  .text-links {
     color: var(--card-text);
   }
 
@@ -330,7 +340,8 @@ p,
   .skillContainer,
   .project-container,
   .contact-img,
-  #projectTitle {
+  #projectTitle,
+  .projectCard.expanded {
     background-color: var(--dark-background);
   }
 

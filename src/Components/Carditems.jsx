@@ -5,7 +5,7 @@ function Carditems(props) {
   return (
     <>
       <li className="cardsItem">
-        <Link className="cardsItemLink" to={props.path}>
+        <div className="cardsItemLink" to={props.path}>
           <figure className="cardItemPicWrap" data-category={props.label}>
             <img
               src={props.src}
@@ -16,7 +16,7 @@ function Carditems(props) {
           <div className="cardsItemInfo">
             <h5 className="cardsItemText">{props.text}</h5>
           </div>
-        </Link>
+        </div>
       </li>
     </>
   );
