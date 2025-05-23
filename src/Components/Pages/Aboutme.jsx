@@ -20,7 +20,7 @@ function AboutMe() {
 
         <div className="postcard-content">
           <h2 className="name">Markel Bradford</h2>
-          <h3 className="titles">Full-Stack Developer | Site Operations Manager | Student</h3>
+          <h3 className="titles">Full-Stack Developer | Masters Student in Cybersecurity</h3>
           
           <p className="me-text">
             Passionate about innovation and problem-solving, I&apos;m transitioning from a 
@@ -32,7 +32,7 @@ function AboutMe() {
           <ul className="highlights">
             <li>💻 Proficient in React, Next.js, Python, Express, MongoDB</li>
             <li>🎓 B.S. in Information Technology - GPA 4.0 (March 2025)</li>
-            <li>🚀 Freelance Developer & Web Design Intern</li>
+            <li>🚀 Freelance Software Developer and Web Designer</li>
           </ul>
 
           <blockquote className="fun-quote">
