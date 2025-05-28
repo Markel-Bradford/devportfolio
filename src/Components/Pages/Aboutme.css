@@ -103,11 +103,16 @@
 @media (max-width: 768px) {
     .about-me-section {
         padding: 0;
-    }    
+    } 
+
+    .titles {
+      font-size: 18px;
+    }
+       
 .postcard {
     flex-direction: column;
     text-align: center;
-    border-radius: 0;
+    border-radius: 16px;
     padding: 0 20px;
   }
   
@@ -116,7 +121,12 @@
   }
 
   .postcard p {
-    font-size: 18px;
+    font-size: 16px;
+    text-align: left;
   }
-  
+
+  .highlights li {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
 }

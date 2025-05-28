@@ -130,7 +130,7 @@ function ProjectCards() {
         className={`${inView ? styles.animationFade : styles.hidden}`}></div>
       <div id="projectTitle">
         <h2 className="project-view">
-          Please take a moment to view my completed projects
+          Click on a project card to view more details and find links to each project and repository
         </h2>
       </div>
       <div className="project-container">

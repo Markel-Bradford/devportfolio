@@ -32,7 +32,7 @@ function AboutMe() {
           <ul className="highlights">
             <li>💻 Proficient in React, Next.js, Python, Express, MongoDB</li>
             <li>🎓 B.S. in Information Technology - GPA 4.0 (March 2025)</li>
-            <li>🚀 Freelance Software Developer and Web Designer</li>
+            <li>🚀 Software Developer and Web Designer</li>
           </ul>
 
           <blockquote className="fun-quote">
