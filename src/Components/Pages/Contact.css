@@ -8,6 +8,8 @@
     max-width: 1300px;
     margin: 0 auto;
     font-family: 'PT Sans', sans-serif;
+    border-left: 2px solid rgba(56, 125, 255, 0.17);
+    border-right: 2px solid rgba(56, 125, 255, 0.17);
   }
 
 .contact-methods {
@@ -27,6 +29,8 @@
     margin: 0 auto;
     font-family: 'PT Sans', sans-serif;
     padding-bottom: 100px;
+        border-left: 2px solid rgba(56, 125, 255, 0.17);
+    border-right: 2px solid rgba(56, 125, 255, 0.17);
 }
 
 .contact-wrapper{

@@ -17,6 +17,8 @@
   font-family: 'PT Sans', sans-serif;
   max-width: 1300px;
   margin: 0 auto;
+  border-left: 2px solid rgba(56, 125, 255, 0.17);
+    border-right: 2px solid rgba(56, 125, 255, 0.17);
 }
 
 .about-me {
@@ -52,6 +54,8 @@
   position: relative;
   max-width: 1300px;
   margin: 0 auto;
+      border-left: 2px solid rgba(56, 125, 255, 0.17);
+    border-right: 2px solid rgba(56, 125, 255, 0.17);
 }
 
 @media screen and (max-width:600px) {
