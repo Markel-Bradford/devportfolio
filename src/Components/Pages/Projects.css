@@ -284,6 +284,7 @@
     z-index: 1;
     padding: 10px;
     overflow-y: scroll;
+    cursor: default;
   }
 
   .card-back-inner {
@@ -302,6 +303,10 @@
   .projectName {
     text-align: left;
     text-decoration: underline;
+  }
+
+  .close-btn {
+    top: .5rem;
   }
 
   .tech {
