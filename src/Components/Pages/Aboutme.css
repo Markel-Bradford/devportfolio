@@ -8,7 +8,7 @@
     max-width: 1300px;
     margin: 0 auto;
     padding: 75px 0 0 0;
-        border-left: 2px solid rgba(56, 125, 255, 0.17);
+    border-left: 2px solid rgba(56, 125, 255, 0.17);
     border-right: 2px solid rgba(56, 125, 255, 0.17);
 }
 
@@ -47,17 +47,22 @@
 .postcard-image {
   flex: 1;
   min-width: 250px;
-  margin-top: 32.5px;
 }
 
-.postcard-image img {
+.comptia {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  width: 45%;
+}
+
+.profile_picture {
   width: 100%;
   border-radius: 16px;
 }
 
 .postcard-content {
   flex: 2;
-  padding: 20px;
+  padding: 0px 20px;
 }
 
 .name {

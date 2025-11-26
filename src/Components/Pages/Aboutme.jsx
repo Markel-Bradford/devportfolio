@@ -13,39 +13,65 @@ function AboutMe() {
       <h1 className="about-me">About Me</h1>
 
       <div className="about-container">
-      <div ref={ref} className={`postcard ${inView ? "fade-in" : "hidden"}`}>
-        <div className="postcard-image">
-          <img src="/devportfolio/images/me.JPG" alt="Markel Bradford" />
-        </div>
+        <div ref={ref} className={`postcard ${inView ? "fade-in" : "hidden"}`}>
+          <div className="postcard-image">
+            <img
+              className="profile_picture"
+              src="/devportfolio/images/me.JPG"
+              alt="Markel Bradford"
+            />
+            <img
+              className="comptia"
+              src="/devportfolio/images/comptia-security-ce-certification.png"
+              alt="CompTIA Security+ Certification Badge"
+            />
+          </div>
 
-        <div className="postcard-content">
-          <h2 className="name">Markel Bradford</h2>
-          <h3 className="titles">Full-Stack Developer | Masters Student in Cybersecurity</h3>
-          
-          <p className="me-text">
-            Passionate about innovation and problem-solving, I&apos;m transitioning from a 
-            successful management career into full-stack development. I thrive at the 
-            intersection of strategy and creativity, continuously learning new 
-            technologies to build innovative solutions.
-          </p>
+          <div className="postcard-content">
+            <h2 className="name">Markel Bradford</h2>
+            <h3 className="titles">
+              Cybersecurity | Full-Stack Developer | Master&apos;s Student
+            </h3>
 
-          <ul className="highlights">
-            <li>💻 Proficient in React, Next.js, Python, Express, MongoDB</li>
-            <li>🎓 B.S. in Information Technology - GPA 4.0 (March 2025)</li>
-            <li>🚀 Software Developer and Web Designer</li>
-          </ul>
+            <p className="me-text">
+              Passionate about innovation and problem-solving, I am
+              transitioning from a successful management career into
+              cybersecurity and full-stack development. Backed by my CompTIA
+              Security+ certification, I excel at the intersection of strategy,
+              technical execution, and creative problem-solving. I&apos;m committed
+              to continuous learning and leveraging modern technologies to build
+              secure, scalable, and innovative solutions.
+            </p>
 
-          <blockquote className="fun-quote">
-            “Technology is best when it brings people together.” - Matt Mullenweg
-          </blockquote>
+            <ul className="highlights">
+              <li>💻 Proficient in React, Next.js, Python, Express, MongoDB</li>
+              <li>🎓 B.S. in Information Technology - GPA 4.0 (June 2025)</li>
+              <li>🚀 Software Developer and Web Designer</li>
+              <li>🪪CompTIA Security+ Certified - 2025</li>
+            </ul>
 
-          <div className="postcard-links">
-            <a href="https://github.com/Markel-Bradford" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/markelbradford/" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="mailto:markel.bradford94@gmail.com">Email Me</a>
+            <blockquote className="fun-quote">
+              “Technology is best when it brings people together.” - Matt
+              Mullenweg
+            </blockquote>
+
+            <div className="postcard-links">
+              <a
+                href="https://github.com/Markel-Bradford"
+                target="_blank"
+                rel="noreferrer">
+                GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/markelbradford/"
+                target="_blank"
+                rel="noreferrer">
+                LinkedIn
+              </a>
+              <a href="mailto:markel.bradford94@gmail.com">Email Me</a>
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </div>
   );
