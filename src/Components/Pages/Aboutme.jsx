@@ -20,11 +20,20 @@ function AboutMe() {
               src="/devportfolio/images/me.JPG"
               alt="Markel Bradford"
             />
+            <a href="https://www.credly.com/badges/4a04cd29-7243-4a66-816a-dbb11568eda7/public_url" target="_blank" noreferrer>
             <img
               className="comptia"
               src="/devportfolio/images/comptia-security-ce-certification.png"
               alt="CompTIA Security+ Certification Badge"
             />
+            </a>
+            <a href="https://www.credly.com/badges/83e45763-0955-47c1-b664-1a281d74232b/public_url" target="_blank" noreferrer>
+            <img
+              className="comptia"
+              src="/devportfolio/images/SAL.png"
+              alt="SAL1 Certification Badge"
+            />
+            </a>
           </div>
 
           <div className="postcard-content">
@@ -48,6 +57,7 @@ function AboutMe() {
               <li>🎓 B.S. in Information Technology - GPA 4.0</li>
               <li>🚀 Cybersecurity Analyst and Software Developer</li>
               <li>🪪CompTIA Security+ Certified - 2025</li>
+              <li>🪪TryHackMe SAL1 Certified - 2026</li>
             </ul>
 
             <blockquote className="fun-quote">
